@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    box-shadow: 1px 1px 1rem 1px rgb(13,176,197);
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.btn1 {
+    background: #fff;
+    padding: 0.8rem 1.6rem; 
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1rem 1px rgb(13, 176, 197);
+    cursor: pointer;
+    
+    margin: 0  1rem;
+}
+.btn1:hover {
+    background: rgb(13, 176, 197);
+    color: #fff;
+    transform: rotateX(360deg);
+}
+.btn2 {
+    background: #fff;
+    padding: 0.8rem 1.6rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    box-shadow:  1px 1px 1rem 1px rgb(13,176,197);
+    cursor: pointer;
+    transition: 1.5s  cubic-bezier(0.68, -0.55 -0.265, 1.55);
+    margin: 0  1rem;
+}
+.btn2:hover {
+    background: rgb(13, 176, 197);
+    color: #fff;
+    transform: rotateX(360deg);
+}
+.btn3 {
+    width: 100%;
+    background: #fff;
+    padding: 0.8rem 1.6rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1rem 1px rgb(13,176,197);
+    cursor: pointer;
+    transition: 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    margin: 0 1rem;
+}
+.btn3:hover {
+    background: rgb(13, 176, 197);
+    color: #fff;
+    transform: rotateX(360deg);
+}
